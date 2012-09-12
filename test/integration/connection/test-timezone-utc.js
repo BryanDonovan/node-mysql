@@ -1,7 +1,7 @@
 var common = require('../../common');
 var assert = require('assert');
 
-var config = {utc: true};
+var config = {tz: 'UTC'};
 var connection = common.createConnection(config);
 
 common.useTestDb(connection);
